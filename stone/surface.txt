@@ -1,0 +1,8 @@
+stone  技术仓储模块
+    com.blueprint.stone
+        jdk_character       -- jdk 新特性
+            jdk5
+            jdk6
+            jdk7
+            jdk8
+            jdk9

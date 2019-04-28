@@ -1,0 +1,2 @@
+common  通用工具集成模块
+    -- redis    com.blueprint.common.cache.redis.RedisConfig
