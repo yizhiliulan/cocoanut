@@ -24,7 +24,7 @@ public class RedisLock {
 
 
     /**
-     * 锁定成功状态
+     * status of when the lock is successful used
      */
     private static final String LOCK_SUCCESS = "ok";
     /**
