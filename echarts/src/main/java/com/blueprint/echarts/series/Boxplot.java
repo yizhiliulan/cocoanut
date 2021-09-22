@@ -91,6 +91,7 @@ public class Boxplot extends Series<Boxplot> {
         return this;
     }
 
+    @Override
     public ItemStyle itemStyle() {
         if (this.itemStyle == null) {
             this.itemStyle = new ItemStyle();
@@ -98,6 +99,7 @@ public class Boxplot extends Series<Boxplot> {
         return this.itemStyle;
     }
 
+    @Override
     public Boxplot itemStyle(ItemStyle itemStyle) {
         this.itemStyle = itemStyle;
         return this;

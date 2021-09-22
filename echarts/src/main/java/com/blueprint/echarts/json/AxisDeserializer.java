@@ -60,6 +60,7 @@ public class AxisDeserializer implements JsonDeserializer<Axis> {
             case time:
                 axis = context.deserialize(jsonObject, TimeAxis.class);
                 break;
+                default:
         }
         return axis;
     }

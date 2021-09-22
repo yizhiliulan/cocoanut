@@ -24,7 +24,7 @@
 
 package com.blueprint.echarts.json;
 
-import com.github.abel533.echarts.Option;
+import com.blueprint.echarts.Option;
 
 /**
  * 增强的Option - 主要用于测试、演示

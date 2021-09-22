@@ -274,6 +274,7 @@ public class Legend extends Basic<Legend> implements Data<Legend>, Component {
      * @param values
      * @return
      */
+    @Override
     public Legend data(Object... values) {
         if (values == null || values.length == 0) {
             return this;

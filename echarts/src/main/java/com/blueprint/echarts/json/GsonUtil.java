@@ -24,9 +24,9 @@
 
 package com.blueprint.echarts.json;
 
-import com.github.abel533.echarts.Option;
-import com.github.abel533.echarts.axis.Axis;
-import com.github.abel533.echarts.series.Series;
+import com.blueprint.echarts.Option;
+import com.blueprint.echarts.axis.Axis;
+import com.blueprint.echarts.series.Series;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;

@@ -24,8 +24,8 @@
 
 package com.blueprint.echarts.json;
 
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.series.*;
+import com.blueprint.echarts.code.SeriesType;
+import com.blueprint.echarts.series.*;
 import com.google.gson.*;
 
 import java.lang.reflect.Type;
@@ -90,6 +90,7 @@ public class SeriesDeserializer implements JsonDeserializer<Series> {
             case sankey:
                 series = context.deserialize(jsonObject, Sankey.class);
                 break;
+                default:
         }
         return series;
     }

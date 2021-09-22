@@ -53,10 +53,10 @@ public class RedisLock {
      */
     public static boolean tryGetDistributeLock(Jedis jedis, String lockKey,
                                                String requestId, long expireTime){
-        String result = jedis.set(lockKey,requestId,SET_IF_NOT_EXIST,SET_WITH_EXPIRE_TIME,expireTime);
-        if(LOCK_SUCCESS.equals(result)){
-            return true;
-        }
+//        String result = jedis.set(lockKey,requestId,SET_IF_NOT_EXIST,SET_WITH_EXPIRE_TIME,expireTime);
+//        if(LOCK_SUCCESS.equals(result)){
+//            return true;
+//        }
         return false;
     }
 

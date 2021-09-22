@@ -24,7 +24,7 @@
 
 package com.blueprint.echarts.json;
 
-import com.github.abel533.echarts.Option;
+import com.blueprint.echarts.Option;
 
 import java.io.*;
 import java.lang.reflect.Method;
